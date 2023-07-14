@@ -23,7 +23,7 @@ p{
 }
 
 main{
-  /* height: 100vh; */
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,19 +35,19 @@ main{
   opacity: 0s;
   animation: fadeIn 1s 1s ease-in-out forwards;
   text-align: center;
-   img {
-    border-radius: 35px;
-    /* width: 300px; */
-    height: auto;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
-   }
+}
+
+.my_details img{
+  border-radius: 35px;
+  width: 300px;
+  height: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .social_icons{
-  opacity: 0;
   border-radius: 35px;
   background: rgb(245,243,245);
-  /* padding: 20px; */
+  padding: 20px;
   display: flex;
   flex-direction: row;
   gap: 20px;
@@ -66,11 +66,12 @@ main{
   height: 80px;
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
-   img {
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-   }
+}
+
+.social_icons img{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
 }
 
 .icon:hover {
